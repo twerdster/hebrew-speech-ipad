@@ -1,35 +1,23 @@
 # Hebrew Speech Recognition on iPad
 
-<p align="center">
-  <img src="assets/project-preview.jpg" alt="Round metallic icon with a purple microphone, used as this project's thumbnail on the archived website" width="200">
-</p>
+This student project explored Hebrew dictation on an iPad. The surviving description records its purpose and credits, but does not establish its recognition model, training method or error rate.
 
-![Platform: iPad (iOS)](https://img.shields.io/badge/platform-iPad%20%28iOS%29-lightgrey)
-![Source: not recovered](https://img.shields.io/badge/source-not%20recovered-lightgrey)
-![Archive: historical student project](https://img.shields.io/badge/archive-historical%20student%20project-informational)
+Original project: **Nadav Merlis and Liora Neeman**. Supervision: **Aaron Wetzler**.
 
-A documentation record of an iPad speech-recognition project for Hebrew dictation.
+<img src="assets/project-preview.jpg" alt="Historical project thumbnail; its creator was not recorded. It is not an application screenshot." width="600">
 
-Students: Nadav Merlis, Liora Neeman.
+*Historical project thumbnail; its creator was not recorded. It is not an application screenshot.*
 
-Supervision: Aaron Wetzler.
+The archived description and thumbnail are preserved. No original application, recognizer, report or executable has been recovered.
 
-## Available materials
+## Updated
 
-This repository contains the archived project description, credits and microphone thumbnail. The historical project concerned an iPad application for Hebrew dictation. The archived description credits the underlying research to Prof. Koby Kramer (as spelled in the archived description), but provides no paper or implementation identifying the method.
+**[Open the browser demo](https://twerdster.github.io/hebrew-speech-ipad/)** · [Updated guide](updated/README.md)
 
-No application source, executable, report, training data, model or build configuration has been recovered for publication here. The description alone does not establish the recognition method, supported vocabulary, model training procedure or error rate.
+The new interface provides right-to-left editing, a newly written sample and UTF-8 export. Optional dictation uses the browser’s speech service; audio may be processed by the vendor. It is not the students’ recognizer and does not demonstrate their unknown method. Editing/export were checked in Chrome; live recognition and physical iPad use remain untested.
 
-## Use and validation
+[Browser controls, local serving and limitations](updated/demo/README.md)
 
-There is no software to install or run from this repository. The iPad platform badge records the intended historical platform; it does not identify a tested iOS version or current device support. No recognition evaluation, training run or application build has been performed during recovery. The website link below is the available project record.
+## Project record and rights
 
-## Links
-
-- [Project entry on Aaron Wetzler's website](https://twerdster.github.io/#hebrew-speech-recognition-on-ipad)
-
-## Attribution and reuse
-
-The credits above follow the archived project page. No license for unrecovered source code is implied by this README. Original authors can open an issue to contribute updates or request corrections or removal of their material.
-
-Figure provenance: `assets/project-preview.jpg` is the thumbnail used for this project on the archived project page of Aaron Wetzler's website, copied without modification. It is a microphone icon, not a screenshot of the student application; its original creator was not recorded in the archive, and it remains the property of its owner.
+[Historical context, attribution and recovery details](PROJECT_RECORD.md) preserve the earlier record. Original material, datasets, dependencies and new code keep their separately stated terms; no blanket license is added.

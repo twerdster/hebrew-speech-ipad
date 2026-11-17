@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-17",
+  "implementation": "New Hebrew dictation interface",
+  "browser": "Chrome on macOS; isolated automated profile",
+  "viewports_css_px": [
+    [
+      1280,
+      940
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "Hebrew sample populated",
+    "word count responds to editing",
+    "UTF-8 text export",
+    "export content matches actual edited text",
+    "no microphone starts automatically",
+    "390px layout has no horizontal overflow",
+    "no JavaScript page errors"
+  ],
+  "operator_checks": null,
+  "limitations": "No original recognizer or research method is implemented. Live microphone recognition, Hebrew recognition accuracy and iPad operation remain untested. Actual sample editing, word count and byte-exact UTF-8 export were checked. A sample paragraph is not recognition output.",
+  "physical_devices_tested": false,
+  "live_audio_or_camera_tested": false,
+  "cross_browser_tested": false
+}
