@@ -25,5 +25,9 @@
   "limitations": "No original recognizer or research method is implemented. Live microphone recognition, Hebrew recognition accuracy and iPad operation remain untested. Actual sample editing, word count and byte-exact UTF-8 export were checked. A sample paragraph is not recognition output.",
   "physical_devices_tested": false,
   "live_audio_or_camera_tested": false,
-  "cross_browser_tested": false
+  "cross_browser_tested": false,
+  "mocked_speech_voice_checks": {
+    "cases": 2,
+    "scope": "Local voice selected despite an earlier remote Hebrew voice; remote-only voices rejected. Mock browser API, no actual speech."
+  }
 }

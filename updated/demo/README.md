@@ -14,7 +14,7 @@ Open <http://127.0.0.1:8000/>. No dependency installation or build is required. 
 
 ## Controls
 
-Load the new Hebrew sample, edit its right-to-left text, and save a UTF-8 text file. Optional dictation requests the browser speech service; audio may be processed by the browser vendor. Read aloud is a new addition using an installed Hebrew voice, if available.
+Load the new Hebrew sample, edit its right-to-left text, and save a UTF-8 text file. Optional dictation requests the browser speech service; audio may be processed by the browser vendor. Read aloud is a new addition using a locally installed Hebrew voice (`localService`), if available.
 
 ## Verification and limitations
 

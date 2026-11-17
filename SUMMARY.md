@@ -17,3 +17,5 @@ Aaron requested concise natural README prose and a runnable demo in each Updated
 Preserve thumbnail and attribution; the thumbnail creator is unrecorded and no blanket license is added. Do not infer the original model, method, vocabulary or accuracy. Never present typed sample text as recognition output. Speech capture must start only on explicit request, with the vendor-service disclosure visible. Keep editing/export usable without microphone or installed Hebrew voice.
 
 New static demonstration checks are in updated/demo/VALIDATION.json when present. Actual Chrome desktop/390-pixel interactions were checked; a narrow viewport is not a physical device. No hardware, live microphone/camera recognition or cross-browser coverage is added. Review and synchronize SUMMARY.md and SKILL.md before every commit. Keep private evidence, account details and machine paths outside the repository.
+
+The added read-aloud feature selects only voices marked `localService` by the browser; remote synthesis voices are excluded. Browser dictation remains optional and separately disclosed as a vendor service. This selection is not live speech-recognition validation.
