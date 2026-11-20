@@ -1,15 +1,11 @@
-# Maintain Hebrew Speech Recognition on iPad
+# Maintain the historical Hebrew speech project record
 
-Read SUMMARY.md first, then this file, README.md, PROJECT_RECORD.md and relevant source/guides/validation.
+Read SUMMARY.md first, then this file, README.md and PROJECT_RECORD.md.
 
-Preserve thumbnail and attribution; the thumbnail creator is unrecorded and no blanket license is added. Do not infer the original model, method, vocabulary or accuracy. Never present typed sample text as recognition output. Speech capture must start only on explicit request, with the vendor-service disclosure visible. Keep editing/export usable without microphone or installed Hebrew voice.
+Keep this repository a historical record of the work by Nadav Merlis and Liora Neeman, supervised by Aaron Wetzler. Preserve the description, credits, qualified archival spelling of Koby Kramer and original thumbnail. Do not infer an implementation, model, recognition accuracy or current iPad support from the surviving description.
 
-## Documentation and demo workflow
+The thumbnail is an archived microphone icon, not an application screenshot. Its original creator was not recorded, and it remains the property of its owner. No blanket license is added.
 
-Keep README brief: project purpose, author/supervisor credits, current progress, one factual visual, Updated demo and linked setup/evidence/rights. Preserve original work and distinguish recovered execution, new implementations, recorded playback and illustrative reconstructions. Long commands, conversion issues and logs belong in linked guides. Existing updated-guide heading anchors must keep working. The user authorized shortening the root README on 2026-11-17; PROJECT_RECORD.md retains its prior contents, and existing original/ material remains unchanged.
+Aaron requested removal of the later Updated section, browser demonstration and code on 2026-11-20. Keep implementation files, demo guides, deployment workflows and runnable examples out of the current repository unless explicitly requested again. No software setup, build or execution instructions are needed.
 
-For static demos serve `updated/demo/` over localhost or HTTPS; use Python 3’s HTTP server with that directory. Check real controls, downloads where available, failure handling and desktop/phone-width layout. Use updated/demo/VALIDATION.json for recorded scope and updated/demo/README.md for exact commands. Physical/live-camera/microphone and cross-browser results must not be inferred from desktop automation. Existing native/model apps keep their own build/test/deploy workflows.
-
-When Claude review is requested, invoke it on the actual draft/facts, apply useful feedback after checking the code and retain a truthful review record. Before every commit reread/synchronize SUMMARY.md and this file, check links/images/Markdown and original hashes/pins, inspect the diff and staged files, preserve licensing/attribution and use Aaron Wetzler’s canonical commit identity. Publish normally; never rewrite history without explicit authorization. No private correspondence, access keys, student identifiers or machine-specific setup belongs in public files.
-
-The added read-aloud feature selects only voices marked `localService` by the browser; remote synthesis voices are excluded. Browser dictation remains optional and separately disclosed as a vendor service. This selection is not live speech-recognition validation.
+Before every commit, review and synchronize SUMMARY.md and this file, verify Markdown links and the unchanged thumbnail, and inspect staged files. Use Aaron Wetzler’s canonical commit identity. Publish normally; do not rewrite history without explicit authorization. Keep private correspondence, credentials and machine-specific details outside public files.
